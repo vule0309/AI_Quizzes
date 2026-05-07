@@ -41,3 +41,21 @@ frontend/.env.local
 # Logs
 npm-debug.log*
 yarn-error.log*
+
+# AI & Data
+*.pdf
+*.docx
+
+uploads/
+data/
+chroma_db/
+faiss_index/
+.chroma/
+
+# Databases
+*.db
+*.sqlite3
+
+# Frontend extra
+.vite/
+.eslintcache

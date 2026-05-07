@@ -14,11 +14,12 @@ pdfplumber==0.11.0
 python-docx==1.1.0
 
 # ai & langchain
-langchain==0.2.1
-langchain-google-genai==1.0.4
-google-generativeai==0.5.3
-langchain-text-splitters==0.2.0
-numpy<2.0.0
+langchain
+langchain-google-genai
+google-generativeai
+langchain-text-splitters
+langchain-ollama
+numpy
 
 # testing & dev
 pytest==8.2.0
