@@ -41,3 +41,28 @@ frontend/.env.local
 # Logs
 npm-debug.log*
 yarn-error.log*
+
+# AI & Data
+*.pdf
+*.docx
+
+# ML artifacts
+backend/app/ml/artifacts/*.pt
+backend/app/ml/artifacts/*.pth
+backend/app/ml/artifacts/*.bin
+# Keep label_map.json if it exists
+!backend/app/ml/artifacts/label_map.json
+
+uploads/
+data/
+chroma_db/
+faiss_index/
+.chroma/
+
+# Databases
+*.db
+*.sqlite3
+
+# Frontend extra
+.vite/
+.eslintcache
